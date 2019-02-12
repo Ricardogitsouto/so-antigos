@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>SóAntios, carros clássicos, carros esportivos, carros de rally</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="_css/style_index.css">
+		<link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bitter|Bree+Serif|Montserrat|Work+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="_css/auto-complete.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+	</head>
+	
+	<body>
+		
+			<section class="fundo-cinza"><!-- O modal abre aqui --></section>
+		
+			<header>			
+				<div class="tarja-header">
+					<div class="div-logo">
+						<h1>SóAntigoss</h1>
+					</div>
+			
+					<div class="div-menu">
+						<ul>
+								<li  class="item-menu"><a href="sobre">Sobre</a></li>
+							<li  class="item-menu"><a href="#" class = "">Clássicos</a></li>
+							<li  class="item-menu"><a href="#" class = "">Esportivos</a></li>
+							<li  class="item-menu"><a href="#" class = "">Rally</a></li>
+						</ul>
+					</div>
+
+					<div class="div-menu-hamburger">
+						<div class="quadrado" style="width: 30px;height: 30px;color: #ccc;">
+							<div class="linha" style="margin: 19% 0;background-color: #fff;height: 4px;"></div>
+							<div class="linha" style="margin: 19% 0;background-color: #fff;height: 4px;"></div>
+							<div class="linha" style="margin: 19% 0;background-color: #fff;height: 4px;"></div>
+						</div>
+					</div>					
+				</div>
+				
+
+				
+				<div class="box-menu">
+					<ul class="menu-mobile">
+							<li class="item-menu-mobile item-menu"><a href="#sobre">Sobre</a></li>
+						<li class="item-menu-mobile item-menu"><a href="#sobre">Clássicos</a></li>
+						<li class="item-menu-mobile item-menu"><a href="#">Esportivos</a></li>
+						<li class="item-menu-mobile item-menu"><a href="#">Rally</a></li>	
+					</ul>
+				</div>
+					
+				<div class="previa">
+						<h3 class="style-auto-digitado txt"></h3>	
+				</div>
+					
+				
+				<i class="fas fa-angle-double-down ceta-header" styale = "color: #fff"></i>
+
+				<div class="sub-menu">
+					<ul class="nav-bar">
+						<li class="item-sub-menu" style="border-bottom: solid 2px #fff"><a href="#" class="sub-meu-a">Todos</a></li>
+						<li class="item-sub-menu"><a href="#" class="sub-meu-a">Fiat</a></li>
+						<li class="item-sub-menu"><a href="#" class="sub-meu-a">Ford</a></li>
+						<li class="item-sub-menu"><a href="#" class="sub-meu-a">Volkswagen</a></li>
+						<li class="item-sub-menu"><a href="#" class="sub-meu-a">Honda</a></li>
+						<li class="item-sub-menu"><a href="#" class="sub-meu-a">Chevrolet</a></li>
+						<li class="item-sub-menu"><a href="#" class="sub-meu-a">Hyundai</a></li>
+					</ul>
+				</div>
+		</header>
+
+
+		<section class="form-auto-complita">
+
+			<form onsubmit="return false;" class="pure-form">
+					<label class="txt-label">Buscar Relíquia:</label>
+						<input id="hero-demo"  type="text" name="q" required="" placeholder="Modelo ou Marca ...">
+					<button class="btn-pesquisa">Pesquisar</button>
+			</form>
+		   
+			<div class="div-sugestao">
+				<p class="msg-carro-ausente">Carro ausente!</p>
+				<a href="#titulo-form">Que carro falta?</a>
+			</div>
+
+		</section>
+
+		<h2 class="titulo-descricao"></h2>
+		<section class="box-cards"></section>
+
+	
+		<section id="sobre" class="sobre">
+			<h3>Criado para os amantes de carros!</h3>
+			<p>Este site foi criado inicialmente para estudo das linguagens de programação web, aproveitando do tema(carros) que por si só chama a atenção de grande parte das pessoas.</p>
+			<p>Conforme avançava no desenvolvimento, me identifiquei muito com o tema do site, pois sou apaixonado por carros, então juntei minhas duas paixões carros e programação!</p>
+			<p>Caprichei ao máximo para esse site ficar atraente e intuitivo e com uma boa performance, para ser encontrado pelos mecanismos de buscar.</p>
+			<p>Utilizei HTMH5, CSS3 e Javascript6(ecmanscript 216).</p>
+			<p>Espero que seja visto pelo maior número de pessoas amantes de auto!</p>
+			<p>Aguardo sua dúvida, critica ou sugestão.</p>
+			<p>Quer saber quem sou, <a href="#">click aqui!</a></p>
+		</section>
+
+		<h2 id="titulo-form">lembrou de um carro que merece estar aqui?</h2>
+		<section  class="box-sugestao">
+			
+
+			<div class="div-form">
+					<form method="post">
+						<div>
+						<label for="#msg">Nome:</label><br>
+							<input class="caixa-texto" type="text" id="nome" placeholder="Me diga seu nome" />
+						</div>
+						<div>
+								<label for="#msg">E-mail:</label><br>
+							<input class="caixa-texto" type="email" id="email" placeholder="Seu E-mail"/>
+						</div>
+						<div>
+							<label for="#msg">Mensagem:</label><br>
+							<textarea id="msg" class="caixa-texto" placeholder="Em que carro você pensou?"></textarea>
+						</div>
+						<input type="submit" value="Enviar" class="btn-form">
+					</form>
+			</div>
+
+			<div class="contatos">
+				<div class="caixa-interna">
+						<h3>O que achou do site? A sua opinião conta muito.</h3>
+						<p>ricardoemail@gmail.com.br</p>
+						<p>Me procure nas redes sociais</p>
+		
+						<nav class="nav-icons">
+							<a href="#"><i class="fab fa-facebook-square  fa-3x icone"></i></a>
+							<a href="#"><i class="fab fa-twitter-square  fa-3x icone"></i></a>
+							<a href="#"><i class="fab fa-linkedin fa-3x icone"></i></a>
+						</nav>
+				</div>
+				
+
+			</div>
+		
+		</section>
+			
+			
+		<footer class="rodape">
+			<p>@Todos os direitos reservados</p>
+		</footer>
+
+		<script src="_js/auto-complete.js"></script>		
+		<script src="_js/arrayObjetoCarros.js"></script>	
+		<script src="_js/criandoElemento.js"></script>								
+		<script src="_js/abre_modal.js"></script>
+		<script src="_js/campo_de_busca.js"></script>
+		<script src="_js/menu-mobile.js"></script>
+		<script src="_js/rolaTela.js"></script>
+		<script src="_js/digitacao.js"></script>
+		<script src="_js/filtra_tipo_card.js"></script>		
+	</body>
+</html>
