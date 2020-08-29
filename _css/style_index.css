@@ -884,5 +884,19 @@ display: grid;
 	}	
 }
 
+.secao-01{
+	padding: 50px 0;
+	text-align: center;
+}
+
+.secao-01>h2{
+	font-weight: 700;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.secao-01>p{
+	font-weight: 500;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
