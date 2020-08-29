@@ -57,9 +57,6 @@ function abreModal(){
 			
 		}
 	}
-
-	
-
 	
 }
 
